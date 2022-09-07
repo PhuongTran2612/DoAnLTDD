@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:adjustViewBounds="true"
+    android:background="@drawable/nen3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LienHeActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarlienhe"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_200"
+        app:titleTextColor="@color/white"
+        app:title="Liên hệ">
+
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:text="Liên hệ với chúng tôi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <LinearLayout
+        android:background="@drawable/boder"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="40dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/anh2"
+            android:layout_width="70dp"
+            android:layout_height="70dp">
+        </ImageView>
+        <TextView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="23sp"
+            android:text="Họ và tên: Lê Thùy Na"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/boder"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="40dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/email"
+            android:layout_width="70dp"
+            android:layout_height="70dp">
+        </ImageView>
+        <TextView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="23sp"
+            android:text="Email: nalethuy@gmail.com"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/boder"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/phone"
+            android:layout_width="70dp"
+            android:layout_height="70dp">
+        </ImageView>
+        <TextView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="23sp"
+            android:text="Điện thoại: 0362417182"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

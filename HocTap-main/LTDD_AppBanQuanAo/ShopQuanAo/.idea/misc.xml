@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DoAn_LTDD/HocTap-main/LTDD_AppBanQuanAo/ShopQuanAo/app/src/main/res/layout/activity_chi_tiet_san_pham.xml" value="0.12360688956433637" />
+        <entry key="..\:/DoAn_LTDD/HocTap-main/LTDD_AppBanQuanAo/ShopQuanAo/app/src/main/res/layout/activity_giohang.xml" value="0.1" />
+        <entry key="..\:/DoAn_LTDD/HocTap-main/LTDD_AppBanQuanAo/ShopQuanAo/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/DoAn_LTDD/HocTap-main/LTDD_AppBanQuanAo/ShopQuanAo/app/src/main/res/layout/activity_phu_kien.xml" value="0.25416666666666665" />
+        <entry key="..\:/DoAn_LTDD/HocTap-main/LTDD_AppBanQuanAo/ShopQuanAo/app/src/main/res/layout/activity_quan_ao.xml" value="0.25416666666666665" />
+        <entry key="..\:/DoAn_LTDD/HocTap-main/LTDD_AppBanQuanAo/ShopQuanAo/app/src/main/res/layout/dong_sanphammoinhat.xml" value="0.25416666666666665" />
+        <entry key="..\:/DoAn_LTDD/HocTap-main/LTDD_AppBanQuanAo/ShopQuanAo/app/src/main/res/layout/progressbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Na/Desktop/LTDD/ShopQuanAo/app/src/main/res/drawable/boder.xml" value="0.1635" />
+        <entry key="..\:/Users/Na/Desktop/LTDD/ShopQuanAo/app/src/main/res/drawable/spinner.xml" value="0.115" />
+        <entry key="..\:/Users/Na/Desktop/LTDD/ShopQuanAo/app/src/main/res/layout/activity_chi_tiet_san_pham.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Na/Desktop/LTDD/ShopQuanAo/app/src/main/res/layout/activity_giohang.xml" value="0.22" />
+        <entry key="..\:/Users/Na/Desktop/LTDD/ShopQuanAo/app/src/main/res/layout/activity_lien_he.xml" value="0.1703125" />
+        <entry key="..\:/Users/Na/Desktop/LTDD/ShopQuanAo/app/src/main/res/layout/activity_main.xml" value="0.2401263823064771" />
+        <entry key="..\:/Users/Na/Desktop/LTDD/ShopQuanAo/app/src/main/res/layout/activity_phu_kien.xml" value="0.1703125" />
+        <entry key="..\:/Users/Na/Desktop/LTDD/ShopQuanAo/app/src/main/res/layout/activity_quan_ao.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Na/Desktop/LTDD/ShopQuanAo/app/src/main/res/layout/activity_thong_tin.xml" value="0.21" />
+        <entry key="..\:/Users/Na/Desktop/LTDD/ShopQuanAo/app/src/main/res/layout/activity_thong_tin_kh.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Na/Desktop/LTDD/ShopQuanAo/app/src/main/res/layout/dong_giohang.xml" value="0.22" />
+        <entry key="..\:/Users/Na/Desktop/LTDD/ShopQuanAo/app/src/main/res/layout/dong_listview_loaisp.xml" value="0.18" />
+        <entry key="..\:/Users/Na/Desktop/LTDD/ShopQuanAo/app/src/main/res/layout/dong_phukien.xml" value="0.1390625" />
+        <entry key="..\:/Users/Na/Desktop/LTDD/ShopQuanAo/app/src/main/res/layout/dong_quanao.xml" value="0.1" />
+        <entry key="..\:/Users/Na/Desktop/LTDD/ShopQuanAo/app/src/main/res/layout/dong_sanphammoinhat.xml" value="0.22" />
+        <entry key="..\:/Users/Na/Desktop/LTDD/ShopQuanAo/app/src/main/res/layout/progressbar.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/Na/Desktop/LTDD/ShopQuanAo/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

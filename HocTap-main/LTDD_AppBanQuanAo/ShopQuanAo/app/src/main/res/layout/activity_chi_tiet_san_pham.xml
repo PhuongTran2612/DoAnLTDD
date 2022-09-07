@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ChiTietSanPham">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarchitietsanpham"
+        app:title="Chi tiết sản phẩm"
+        app:titleTextColor="@color/white"
+        android:background="#B4F44336"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_margin="10dp"
+            android:id="@+id/imageviewchitietsanpham"
+            android:layout_width="100dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_height="100dp">
+        </ImageView>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:id="@+id/textviewtenchitietsanpham"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:text="Tên sản phẩm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:layout_margin="10dp"
+
+                android:id="@+id/textviewgiachitietsanpham"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="20sp"
+                android:text="Giá sản phẩm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_margin="3dp"
+                android:padding="15dp"
+                android:background="@drawable/spinner"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </Spinner>
+            <Button
+                android:id="@+id/buttondatmua"
+                android:textColor="?attr/colorSecondaryVariant"
+                android:textSize="15sp"
+                android:backgroundTint="@color/white"
+                android:text="Thêm vào giỏ hàng"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_margin="5dp"
+            android:textColor="@color/design_default_color_primary_variant"
+            android:textSize="30sp"
+            android:text="Mô tả chi tiết sản phẩm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textviewmotachitietsanpham"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

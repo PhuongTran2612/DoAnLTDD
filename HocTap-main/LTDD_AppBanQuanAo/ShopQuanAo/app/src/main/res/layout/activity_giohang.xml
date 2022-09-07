@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Giohang"
+    android:weightSum="10">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbargiohang"
+        app:title="Giỏ hàng"
+        app:titleTextColor="@color/white"
+        android:background="#DC39CC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_weight="7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/textviewthongbao"
+                android:layout_gravity="center"
+                android:text="Giỏ hàng bạn đang trống"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imgempty"
+                android:layout_gravity="center"
+                android:src="@drawable/empty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </pl.droidsonroids.gif.GifImageView>
+            <ListView
+                android:id="@+id/listviewgiohang"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ListView>
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textColor="@color/design_default_color_error"
+                android:text="Tổng tiền :"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="right"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textviewtongtien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giá trị"
+                android:textColor="@color/design_default_color_error"
+                android:textSize="30sp"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/buttonthanhtoangiohang"
+        android:text="Thanh toán giỏ hàng"
+        android:textColor="@color/teal_200"
+        android:backgroundTint="@color/white"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </Button>
+    <Button
+        android:id="@+id/buttontieptucmuahang"
+        android:text="Tiếp tục mua hàng"
+        android:textColor="@color/teal_200"
+        android:backgroundTint="@color/white"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </Button>
+</LinearLayout>

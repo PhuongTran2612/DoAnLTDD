@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ShopQuanAo</string>
+    <string name="title_activity_thong_tin">ThongTinActivity</string>
+    <string name="map_api_key"> AIzaSyDyu3cdDnpTuw7_J6RcukxqAPani17fH8g</string>
+</resources>
